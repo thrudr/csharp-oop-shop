@@ -38,6 +38,27 @@ namespace OopShop
             return this.code;
         }
 
+        public string GetName()
+        {
+            return this.name;
+        }
+
+        public string GetDescription()
+        {
+            return this.description;
+        }
+
+        public float GetPrice()
+        {
+            return this.price;
+        }
+
+        public int GetIVA()
+        {
+            return this.iva;
+        }
+
+
         //METHODS
 
         private int RandomCode()
