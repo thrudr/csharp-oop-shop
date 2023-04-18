@@ -96,5 +96,14 @@ namespace OopShop
             priceBase += " Euro";
             return priceBase;
         }
+
+        public string PriceIVA()
+        {
+            string priceIVA;
+            float price = (this.price + (this.price * this.iva / 100));
+            priceIVA = price.ToString();
+            priceIVA += " Euro";
+            return priceIVA;
+        }
     }
 }
