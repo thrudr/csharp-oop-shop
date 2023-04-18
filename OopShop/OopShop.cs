@@ -58,6 +58,27 @@ namespace OopShop
             return this.iva;
         }
 
+        // SETTERS
+
+        public void SetName(string name)
+        {
+            this.name = name;
+        }
+
+        public void SetDescription(string description)
+        {
+            this.description = description;
+        }
+
+        public void SetPrice(float price)
+        {
+            this.price = price;
+        }
+
+        public void SetIVA(int iva)
+        {
+            this.iva = iva;
+        }
 
         //METHODS
 
