@@ -88,5 +88,13 @@ namespace OopShop
             int RandomCode = random.Next(99999999 + 1);
             return RandomCode;
         }
+
+        public string PriceBase()
+        {
+            string priceBase;
+            priceBase = (this.price).ToString();
+            priceBase += " Euro";
+            return priceBase;
+        }
     }
 }
