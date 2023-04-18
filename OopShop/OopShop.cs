@@ -105,5 +105,15 @@ namespace OopShop
             priceIVA += " Euro";
             return priceIVA;
         }
+
+        public string CodeName()
+        {
+            string codeName;
+            codeName = this.code.ToString();
+            codeName += this.name;
+            return codeName;
+        }
+
+
     }
 }
