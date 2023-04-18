@@ -114,6 +114,16 @@ namespace OopShop
             return codeName;
         }
 
-
+        public void printArticle()
+        {
+            Console.WriteLine("----------------" + this.name + "--------------------");
+            Console.WriteLine("Codice: \t" + GetCode());
+            Console.WriteLine("Nome: \t\t" + GetName());
+            Console.WriteLine("Descrizione: \t" + GetDescription());
+            Console.WriteLine("Prezzo: \t" + PriceIVA());
+            Console.WriteLine("di cui IVA: \t" + GetIVA() + "%");
+            Console.WriteLine("Nome Esteso: \t" + CodeName());
+            Console.WriteLine("-----------------------------------------------------");
+        }
     }
 }
