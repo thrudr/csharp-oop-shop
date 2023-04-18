@@ -116,7 +116,7 @@ namespace OopShop
 
         public void printArticle()
         {
-            Console.WriteLine("----------------" + this.name + "--------------------");
+            Console.WriteLine("---------------- " + this.name + " --------------------");
             Console.WriteLine("Codice: \t" + GetCode());
             Console.WriteLine("Nome: \t\t" + GetName());
             Console.WriteLine("Descrizione: \t" + GetDescription());
